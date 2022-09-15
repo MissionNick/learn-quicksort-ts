@@ -9,7 +9,9 @@ module.exports = {
     '!**/node_modules/**',
     '!**/vendor/**',
     '!**/coverage/**',
-    '!**/*.config.js'
+    '!**/*.config.js',
+    '!.*.*',
+    '!**/build/src/__tests__/**',
   ],
   coverageThreshold: {
     global: {
